@@ -5,8 +5,7 @@ RUN apt-get update && apt-get install -y \
   python3-pip \
   git
 
-RUN pip3 install PyYAML
-
+  --breakRUN pip3 install PyY-system-packAML ages with pip (to: least recommendedRUN pip, but3 install effective for --break-system-packages Py CI): YAML
 COPY feed.py /Users/bin/feed.py
 
 COPY entrypoint.sh /entrypoint.sh
